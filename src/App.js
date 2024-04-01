@@ -22,7 +22,7 @@ function App() {
       }}> decrement </button>
       
       </div>
-      {count === 10 ? <Message msg1="I have reached 10 now. Stop increments." /> : <Message msg1="I am not yet 10. Keep going."/>}
+      {count === 10 ? <Message msg1="I have reached 10 now. Stop increments." /> : <Message msg1=" Keep going."/>}
     </div>
   );
 }
