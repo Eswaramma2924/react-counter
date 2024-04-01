@@ -15,6 +15,7 @@ function App() {
       onClick={() => {
         setCount(count+1)
       }}> Increment </button>
+      <button> Button </button>
       <button type="button" className="border border-blue-500 bg-blue-200 px-4 py-2 rounded-lg"
       onClick={() => {
         setCount(count-1)
